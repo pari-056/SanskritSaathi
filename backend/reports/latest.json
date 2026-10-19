@@ -1,0 +1,1680 @@
+{
+ "lexicon": {
+  "forms": 403374,
+  "stems": 169,
+  "verb_roots": 2229,
+  "verb_finite_forms": 394485,
+  "verb_derived_stems": 12254
+ },
+ "corpora": {
+  "sa_ufal-ud-test.conllu": {
+   "file": "sa_ufal-ud-test.conllu",
+   "sha256_16": "8e956d19e67e96d8",
+   "sentences": 230,
+   "morphology": {
+    "tokens_evaluated": 1434,
+    "skipped": {
+     "skipped_compound_member": 214,
+     "skipped_punct": 195
+    },
+    "coverage": 0.5802,
+    "lemma_recall": 0.5077,
+    "full_recall": 0.484,
+    "precision_on_covered": 0.8341,
+    "mean_analyses_per_covered_token": 2.07,
+    "by_kind": {
+     "adjective": {
+      "n": 159,
+      "coverage": 0.4025,
+      "lemma_recall": 0.3522,
+      "full_recall": 0.3522
+     },
+     "gerund": {
+      "n": 35,
+      "coverage": 0.9714,
+      "lemma_recall": 0.8857,
+      "full_recall": 0.8286
+     },
+     "indeclinable": {
+      "n": 278,
+      "coverage": 0.759,
+      "lemma_recall": 0.6942,
+      "full_recall": 0.6942
+     },
+     "infinitive": {
+      "n": 5,
+      "coverage": 0.8,
+      "lemma_recall": 0.8,
+      "full_recall": 0.8
+     },
+     "noun": {
+      "n": 509,
+      "coverage": 0.224,
+      "lemma_recall": 0.1827,
+      "full_recall": 0.169
+     },
+     "participle": {
+      "n": 101,
+      "coverage": 0.8218,
+      "lemma_recall": 0.7327,
+      "full_recall": 0.5446
+     },
+     "pronoun": {
+      "n": 170,
+      "coverage": 0.8647,
+      "lemma_recall": 0.6294,
+      "full_recall": 0.6059
+     },
+     "verb-finite": {
+      "n": 177,
+      "coverage": 0.9887,
+      "lemma_recall": 0.9605,
+      "full_recall": 0.9492
+     }
+    },
+    "top_oov_lemmas": [
+     {
+      "lemma": "नामन्",
+      "kind": "noun",
+      "count": 12
+     },
+     {
+      "lemma": "राजन्",
+      "kind": "noun",
+      "count": 12
+     },
+     {
+      "lemma": "यथा",
+      "kind": "indeclinable",
+      "count": 11
+     },
+     {
+      "lemma": "इदम्",
+      "kind": "adjective",
+      "count": 8
+     },
+     {
+      "lemma": "वरम्",
+      "kind": "indeclinable",
+      "count": 8
+     },
+     {
+      "lemma": "इदम्",
+      "kind": "pronoun",
+      "count": 7
+     },
+     {
+      "lemma": "तथा",
+      "kind": "indeclinable",
+      "count": 7
+     },
+     {
+      "lemma": "ब्राह्मण",
+      "kind": "noun",
+      "count": 6
+     },
+     {
+      "lemma": "चिद्",
+      "kind": "indeclinable",
+      "count": 6
+     },
+     {
+      "lemma": "दमनक",
+      "kind": "noun",
+      "count": 5
+     },
+     {
+      "lemma": "भद्र",
+      "kind": "noun",
+      "count": 5
+     },
+     {
+      "lemma": "भवत्",
+      "kind": "pronoun",
+      "count": 5
+     },
+     {
+      "lemma": "चिद्",
+      "kind": "adjective",
+      "count": 4
+     },
+     {
+      "lemma": "मध्य",
+      "kind": "noun",
+      "count": 4
+     },
+     {
+      "lemma": "पिङ्गलक",
+      "kind": "noun",
+      "count": 4
+     },
+     {
+      "lemma": "करटक",
+      "kind": "noun",
+      "count": 4
+     },
+     {
+      "lemma": "तावत्",
+      "kind": "indeclinable",
+      "count": 4
+     },
+     {
+      "lemma": "कौलिक",
+      "kind": "noun",
+      "count": 4
+     },
+     {
+      "lemma": "पञ्चतन्त्र",
+      "kind": "noun",
+      "count": 3
+     },
+     {
+      "lemma": "त्रि",
+      "kind": "adjective",
+      "count": 3
+     },
+     {
+      "lemma": "बहु",
+      "kind": "noun",
+      "count": 3
+     },
+     {
+      "lemma": "महत्",
+      "kind": "adjective",
+      "count": 3
+     },
+     {
+      "lemma": "अदस्",
+      "kind": "pronoun",
+      "count": 3
+     },
+     {
+      "lemma": "कथामुख",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "कुमार",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "वह्नि",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "विद्वस्",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "सार",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "शास्त्र",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "जनपद",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "महिलारोप्य",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "विमुख",
+      "kind": "adjective",
+      "count": 2
+     },
+     {
+      "lemma": "सचिव",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "यावत्",
+      "kind": "indeclinable",
+      "count": 2
+     },
+     {
+      "lemma": "विद्वस्",
+      "kind": "adjective",
+      "count": 2
+     },
+     {
+      "lemma": "क्षीर",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "प्रबोधन",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "उपाय",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "सिद्धि",
+      "kind": "noun",
+      "count": 2
+     },
+     {
+      "lemma": "वर्ष",
+      "kind": "noun",
+      "count": 2
+     }
+    ],
+    "example_failures": [
+     {
+      "form": "नमः",
+      "gold": "नमस् NOUN {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",
+      "got": "namaH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "नमः",
+      "gold": "नमस् NOUN {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",
+      "got": "namaH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "अदधि",
+      "gold": "अदधि X {}",
+      "got": "√DA imperfect (laṅ), 1st person, singular, middle voice",
+      "lemma_ok": false
+     },
+     {
+      "form": "सुता",
+      "gold": "सुत NOUN {'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",
+      "got": "suta feminine, nominative, singular",
+      "lemma_ok": true
+     },
+     {
+      "form": "नमः",
+      "gold": "नमस् NOUN {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",
+      "got": "namaH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "आहूय",
+      "gold": "आहूय VERB {'VerbForm': 'Conv'}",
+      "got": "A-√hve ; A-A-√hve ",
+      "lemma_ok": false
+     },
+     {
+      "form": "भोः",
+      "gold": "भोस् INTJ {}",
+      "got": "BoH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "पश्यतः",
+      "gold": "पश्् VERB {'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Pres', 'VerbForm': 'Part', 'Voice': 'Act'}",
+      "got": "√dfS present (laṭ), 3rd person, dual; paSyat masculine, accusative, plural; paSyat masculine, ablative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "मे",
+      "gold": "अहम् PRON {'Case': 'Gen', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",
+      "got": "asmad 1st person, dative, singular; asmad 1st person, genitive, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "यतः",
+      "gold": "यतः ADV {'Case': 'Abl', 'Gender': 'Neut', 'Number': 'Sing', 'PronType': 'Rel'}",
+      "got": "yata masculine, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "प्रोतो",
+      "gold": "प्रोत ADJ {'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",
+      "got": "pra-Uta masculine, nominative, singular; pra-uta masculine, nominative, singular; pra-uta masculine, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "कन्या",
+      "gold": "कन्य NOUN {'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing'}",
+      "got": "kanyA feminine, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "भुञ्जानानां",
+      "gold": "भुज VERB {'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Pres', 'VerbForm': 'Part'}",
+      "got": "BuYjAna feminine, genitive, plural; BuYjAna masculine, genitive, plural; BuYjAna neuter, genitive, plural",
+      "lemma_ok": true
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {'PronType': 'Dem'}",
+      "got": "tata masculine, nominative, singular; tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {'PronType': 'Dem'}",
+      "got": "tata masculine, nominative, singular; tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {'PronType': 'Dem'}",
+      "got": "tata masculine, nominative, singular; tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "ज्ञेयानि",
+      "gold": "ज्ञा VERB {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Plur', 'Tense': 'Fut', 'VerbForm': 'Part', 'Voice': 'Pass'}",
+      "got": "jYeya neuter, nominative, plural; jYeya neuter, accusative, plural; jYeya neuter, vocative, plural",
+      "lemma_ok": true
+     },
+     {
+      "form": "यतः",
+      "gold": "यतः ADV {'PronType': 'Rel'}",
+      "got": "yata masculine, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "आयुः",
+      "gold": "आयुस् NOUN {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",
+      "got": "A-√yA imperfect (laṅ), 3rd person, plural; A-A-√yA imperfect (laṅ), 3rd person, plural",
+      "lemma_ok": false
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {'PronType': 'Dem'}",
+      "got": "tata masculine, nominative, singular; tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "ग्राह्यम्",
+      "gold": "ग्रह् VERB {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing', 'Tense': 'Fut', 'VerbForm': 'Part', 'Voice': 'Pass'}",
+      "got": "grAhya neuter, nominative, singular; grAhya masculine, accusative, singular; grAhya neuter, accusative, singular",
+      "lemma_ok": true
+     },
+     {
+      "form": "अस्य",
+      "gold": "अस् VERB {'VerbForm': 'Conv'}",
+      "got": "√as imperative (loṭ), 2nd person, singular",
+      "lemma_ok": true
+     },
+     {
+      "form": "इव",
+      "gold": "इव ADV {}",
+      "got": "√i present (laṭ), 1st person, dual",
+      "lemma_ok": false
+     },
+     {
+      "form": "आहूय",
+      "gold": "आहू VERB {'VerbForm': 'Conv'}",
+      "got": "A-√hve ; A-A-√hve ",
+      "lemma_ok": false
+     },
+     {
+      "form": "भोः",
+      "gold": "भोस् INTJ {}",
+      "got": "BoH ",
+      "lemma_ok": false
+     }
+    ]
+   },
+   "segmentation": {
+    "multiword_tokens": 259,
+    "rule_recall": 0.9228,
+    "splitter_coverage": 0.1081,
+    "splitter_exact_match": 0.0772,
+    "splitter_precision_on_covered": 0.7143,
+    "most_failing_junctions": [
+     {
+      "junction": "अ|म्",
+      "failures": 2
+     },
+     {
+      "junction": "आ|ए",
+      "failures": 1
+     },
+     {
+      "junction": "ं|ष्",
+      "failures": 1
+     },
+     {
+      "junction": "अ|ज्",
+      "failures": 1
+     },
+     {
+      "junction": "इ|अ",
+      "failures": 1
+     },
+     {
+      "junction": "म्|आ",
+      "failures": 1
+     },
+     {
+      "junction": "अ|प्",
+      "failures": 1
+     },
+     {
+      "junction": "र्|ए",
+      "failures": 1
+     },
+     {
+      "junction": "म्|भ्",
+      "failures": 1
+     },
+     {
+      "junction": "ह्|अ",
+      "failures": 1
+     },
+     {
+      "junction": "ः|उ",
+      "failures": 1
+     }
+    ],
+    "example_rule_failures": [
+     {
+      "surface": "अजातमृतमूर्खेभ्यो",
+      "gold_parts": [
+       "अजात",
+       "मृत",
+       "मूर्खेभ्यः"
+      ],
+      "rules_give": "अजातमृतमूर्खेभ्यः"
+     },
+     {
+      "surface": "तदेतेषां",
+      "gold_parts": [
+       "तदा",
+       "एतेषां"
+      ],
+      "rules_give": "तदैतेषां"
+     },
+     {
+      "surface": "सङ्क्षेपमात्रम्",
+      "gold_parts": [
+       "सङ्क्षेप्र",
+       "मात्रम्"
+      ],
+      "rules_give": "सङ्क्षेप्रमात्रम्"
+     },
+     {
+      "surface": "हंसैर्ययथा",
+      "gold_parts": [
+       "हंसैः",
+       "यथा"
+      ],
+      "rules_give": "हंसैर्यथा"
+     },
+     {
+      "surface": "यथानंयषड्दर्शनान्",
+      "gold_parts": [
+       "यथा",
+       "आनं",
+       "षड्दर्शनान्"
+      ],
+      "rules_give": "यथानंषड्दर्शनान्"
+     },
+     {
+      "surface": "नीतिशास्त्रज्ञानम्",
+      "gold_parts": [
+       "नीतिशास्त",
+       "ज्ञानम्"
+      ],
+      "rules_give": "नीतिशास्तज्ञानम्"
+     },
+     {
+      "surface": "त्वत्प्रार्थनासिद्धर्थस्य",
+      "gold_parts": [
+       "त्वत्",
+       "प्रार्थना",
+       "सिद्धि",
+       "अर्थस्य"
+      ],
+      "rules_give": "त्वत्प्रार्थनासिद्ध्यर्थस्य"
+     },
+     {
+      "surface": "निर्वृतिमजगाम",
+      "gold_parts": [
+       "निर्वृतिम्",
+       "आजगाम"
+      ],
+      "rules_give": "निर्वृतिमाजगाम"
+     },
+     {
+      "surface": "मित्रभॆदमित्रप्राप्तिकाकोलूकीयलब्धप्रणाशापरीक्षितकारकाणि",
+      "gold_parts": [
+       "मित्रभेद",
+       "मित्रप्राप्ति",
+       "काकोलूकीय",
+       "लब्धप्रणाश",
+       "अपरीक्षितकारकाणि"
+      ],
+      "rules_give": "मित्रभेदमित्रप्राप्तिकाकोलूकीयलब्धप्रणाशापरीक्षितकारकाणि"
+     },
+     {
+      "surface": "धर्मोपार्जितभूरिविभवो",
+      "gold_parts": [
+       "धर्म",
+       "उपार्जित",
+       "भूरि",
+       "विभवः"
+      ],
+      "rules_give": "धर्मोपार्जितभूरिविभवः"
+     },
+     {
+      "surface": "वित्तेर्थोपायाश्चिन्तनीयाः",
+      "gold_parts": [
+       "वित्त",
+       "पायाः",
+       "चिन्तनीयाः"
+      ],
+      "rules_give": "वित्तपायाश्चिन्तनीयाः"
+     },
+     {
+      "surface": "तयोरएकः",
+      "gold_parts": [
+       "तयोर्",
+       "एकः"
+      ],
+      "rules_give": "तयोरेकः"
+     },
+     {
+      "surface": "प्रयाणभङ्गमकरोत्",
+      "gold_parts": [
+       "प्रयाणम्",
+       "भङ्गम्",
+       "अकरोत्"
+      ],
+      "rules_give": "प्रयाणंभङ्गमकरोत्"
+     },
+     {
+      "surface": "यमुनातटमवतीर्णः",
+      "gold_parts": [
+       "यमुना",
+       "तटम्",
+       "अवत्र्णः"
+      ],
+      "rules_give": "यमुनातटमवत्र्णः"
+     },
+     {
+      "surface": "दूरादेवाशृणोत्",
+      "gold_parts": [
+       "दूर",
+       "आशृणोत्"
+      ],
+      "rules_give": "दूराशृणोत्"
+     }
+    ]
+   }
+  },
+  "sa_vedic-ud-test.conllu": {
+   "file": "sa_vedic-ud-test.conllu",
+   "sha256_16": "242546c3d6709c7c",
+   "sentences": 2709,
+   "morphology": {
+    "tokens_evaluated": 19600,
+    "skipped": {
+     "skipped_compound_member": 1019
+    },
+    "coverage": 0.5126,
+    "lemma_recall": 0.3945,
+    "full_recall": 0.3836,
+    "precision_on_covered": 0.7485,
+    "mean_analyses_per_covered_token": 2.03,
+    "by_kind": {
+     "adjective": {
+      "n": 1862,
+      "coverage": 0.1837,
+      "lemma_recall": 0.1203,
+      "full_recall": 0.1058
+     },
+     "gerund": {
+      "n": 318,
+      "coverage": 0.8742,
+      "lemma_recall": 0.5503,
+      "full_recall": 0.5503
+     },
+     "indeclinable": {
+      "n": 4350,
+      "coverage": 0.6313,
+      "lemma_recall": 0.5193,
+      "full_recall": 0.5193
+     },
+     "infinitive": {
+      "n": 22,
+      "coverage": 0.2727,
+      "lemma_recall": 0.1364,
+      "full_recall": 0.1364
+     },
+     "noun": {
+      "n": 6496,
+      "coverage": 0.2027,
+      "lemma_recall": 0.1579,
+      "full_recall": 0.1447
+     },
+     "participle": {
+      "n": 824,
+      "coverage": 0.7233,
+      "lemma_recall": 0.5595,
+      "full_recall": 0.4466
+     },
+     "pronoun": {
+      "n": 2742,
+      "coverage": 0.8151,
+      "lemma_recall": 0.554,
+      "full_recall": 0.5514
+     },
+     "verb-other": {
+      "n": 2986,
+      "coverage": 0.8459,
+      "lemma_recall": 0.6916,
+      "full_recall": 0.6916
+     }
+    },
+    "top_oov_lemmas": [
+     {
+      "lemma": "इदम्",
+      "kind": "pronoun",
+      "count": 257
+     },
+     {
+      "lemma": "वै",
+      "kind": "indeclinable",
+      "count": 209
+     },
+     {
+      "lemma": "अ",
+      "kind": "indeclinable",
+      "count": 95
+     },
+     {
+      "lemma": "एनद्",
+      "kind": "pronoun",
+      "count": 94
+     },
+     {
+      "lemma": "ह",
+      "kind": "indeclinable",
+      "count": 79
+     },
+     {
+      "lemma": "आ",
+      "kind": "indeclinable",
+      "count": 69
+     },
+     {
+      "lemma": "पशु",
+      "kind": "noun",
+      "count": 67
+     },
+     {
+      "lemma": "यथा",
+      "kind": "indeclinable",
+      "count": 60
+     },
+     {
+      "lemma": "इन्द्र",
+      "kind": "noun",
+      "count": 59
+     },
+     {
+      "lemma": "यज्ञ",
+      "kind": "noun",
+      "count": 53
+     },
+     {
+      "lemma": "उ",
+      "kind": "indeclinable",
+      "count": 50
+     },
+     {
+      "lemma": "सु",
+      "kind": "indeclinable",
+      "count": 49
+     },
+     {
+      "lemma": "ब्रह्मन्",
+      "kind": "noun",
+      "count": 48
+     },
+     {
+      "lemma": "राजन्",
+      "kind": "noun",
+      "count": 47
+     },
+     {
+      "lemma": "अप्",
+      "kind": "noun",
+      "count": 46
+     },
+     {
+      "lemma": "वाच्",
+      "kind": "noun",
+      "count": 45
+     },
+     {
+      "lemma": "स्वाहा",
+      "kind": "indeclinable",
+      "count": 44
+     },
+     {
+      "lemma": "रूप",
+      "kind": "noun",
+      "count": 44
+     },
+     {
+      "lemma": "मनस्",
+      "kind": "noun",
+      "count": 43
+     },
+     {
+      "lemma": "सोम",
+      "kind": "noun",
+      "count": 41
+     },
+     {
+      "lemma": "एतद्",
+      "kind": "pronoun",
+      "count": 39
+     },
+     {
+      "lemma": "गो",
+      "kind": "noun",
+      "count": 37
+     },
+     {
+      "lemma": "काम",
+      "kind": "noun",
+      "count": 37
+     },
+     {
+      "lemma": "दिव्",
+      "kind": "noun",
+      "count": 37
+     },
+     {
+      "lemma": "अभि",
+      "kind": "indeclinable",
+      "count": 37
+     },
+     {
+      "lemma": "विश्व",
+      "kind": "adjective",
+      "count": 36
+     },
+     {
+      "lemma": "अनु",
+      "kind": "indeclinable",
+      "count": 36
+     },
+     {
+      "lemma": "प्रजा",
+      "kind": "noun",
+      "count": 36
+     },
+     {
+      "lemma": "प्र",
+      "kind": "indeclinable",
+      "count": 36
+     },
+     {
+      "lemma": "सम्",
+      "kind": "indeclinable",
+      "count": 36
+     },
+     {
+      "lemma": "नामन्",
+      "kind": "noun",
+      "count": 35
+     },
+     {
+      "lemma": "परि",
+      "kind": "indeclinable",
+      "count": 34
+     },
+     {
+      "lemma": "नि",
+      "kind": "indeclinable",
+      "count": 33
+     },
+     {
+      "lemma": "आत्मन्",
+      "kind": "noun",
+      "count": 31
+     },
+     {
+      "lemma": "त्रि",
+      "kind": "adjective",
+      "count": 29
+     },
+     {
+      "lemma": "इद्",
+      "kind": "indeclinable",
+      "count": 29
+     },
+     {
+      "lemma": "पितृ",
+      "kind": "noun",
+      "count": 29
+     },
+     {
+      "lemma": "ब्राह्मण",
+      "kind": "noun",
+      "count": 28
+     },
+     {
+      "lemma": "समिध्",
+      "kind": "noun",
+      "count": 28
+     },
+     {
+      "lemma": "प्रजापति",
+      "kind": "noun",
+      "count": 28
+     }
+    ],
+    "example_failures": [
+     {
+      "form": "saṃdihya",
+      "gold": "saṃdih VERB {'VerbForm': 'Conv'}",
+      "got": "sam-√dih ",
+      "lemma_ok": false
+     },
+     {
+      "form": "apidhāpya",
+      "gold": "apidhāpay VERB {'VerbForm': 'Conv'}",
+      "got": "api-√DA ; api-√De ",
+      "lemma_ok": false
+     },
+     {
+      "form": "prātar",
+      "gold": "prātar ADV {}",
+      "got": "√prA present (laṭ), 3rd person, dual",
+      "lemma_ok": false
+     },
+     {
+      "form": "āplāvayati",
+      "gold": "āplāvay VERB {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Plur', 'Tense': 'Pres', 'VerbForm': 'Part'}",
+      "got": "A-√plu present (laṭ), 3rd person, singular, causative; A-A-√plu present (laṭ), 3rd person, singular, causative",
+      "lemma_ok": false
+     },
+     {
+      "form": "abhiścotya",
+      "gold": "abhiścotay VERB {'VerbForm': 'Conv'}",
+      "got": "aBi-Scotya masculine, vocative, singular; aBi-Scotya neuter, vocative, singular; aBi-√Scut ",
+      "lemma_ok": false
+     },
+     {
+      "form": "asmān",
+      "gold": "mad PRON {'Case': 'Acc', 'Number': 'Plur'}",
+      "got": "asmad 1st person, accusative, plural",
+      "lemma_ok": false
+     },
+     {
+      "form": "vayam",
+      "gold": "mad PRON {'Case': 'Nom', 'Number': 'Plur'}",
+      "got": "asmad 1st person, nominative, plural",
+      "lemma_ok": false
+     },
+     {
+      "form": "atas",
+      "gold": "atas ADV {}",
+      "got": "ataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "prāñcam",
+      "gold": "prāñc ADJ {'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",
+      "got": "pra-√anc imperfect (laṅ), 1st person, singular; pra-A-√anc imperfect (laṅ), 1st person, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "prāñcam",
+      "gold": "prāñc ADJ {'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",
+      "got": "pra-√anc imperfect (laṅ), 1st person, singular; pra-A-√anc imperfect (laṅ), 1st person, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "prāñcaḥ",
+      "gold": "prāñc ADJ {'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Plur'}",
+      "got": "pra-√anc imperfect (laṅ), 2nd person, singular; pra-A-√anc imperfect (laṅ), 2nd person, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "tvā",
+      "gold": "tvad PRON {'Case': 'Acc', 'Number': 'Sing'}",
+      "got": "yuzmad 2nd person, accusative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "prokṣya",
+      "gold": "prokṣ VERB {'VerbForm': 'Conv'}",
+      "got": "pra-ukzya masculine, vocative, singular; pra-ukzya neuter, vocative, singular; pra-√ukz ",
+      "lemma_ok": false
+     },
+     {
+      "form": "sādayati",
+      "gold": "sāday VERB {'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres'}",
+      "got": "√sad present (laṭ), 3rd person, singular, causative; √sad present (laṭ), 3rd person, singular; sAdayat masculine, locative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "parisamuhya",
+      "gold": "parisaṃvah VERB {'VerbForm': 'Conv'}",
+      "got": "pari-sam-√Uh ; pari-sam-√uh ",
+      "lemma_ok": false
+     },
+     {
+      "form": "paryukṣya",
+      "gold": "paryukṣ VERB {'VerbForm': 'Conv'}",
+      "got": "pari-ukzya masculine, vocative, singular; pari-ukzya neuter, vocative, singular; pari-√ukz ",
+      "lemma_ok": false
+     },
+     {
+      "form": "saṃnahya",
+      "gold": "saṃnah VERB {'VerbForm': 'Conv'}",
+      "got": "sam-√nah imperative (loṭ), 2nd person, singular; sam-√nah ",
+      "lemma_ok": false
+     },
+     {
+      "form": "upaveśya",
+      "gold": "upaveśay VERB {'VerbForm': 'Conv'}",
+      "got": "upa-veSya masculine, vocative, singular; upa-veSya neuter, vocative, singular; upa-√viS ",
+      "lemma_ok": false
+     },
+     {
+      "form": "uttaratas",
+      "gold": "uttaratas ADV {}",
+      "got": "ud-√tF present (laṭ), 3rd person, dual; ud-tarat masculine, accusative, plural; ud-tarat masculine, ablative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "prāntau",
+      "gold": "prānta NOUN {'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Dual'}",
+      "got": "pra-Anta masculine, nominative, dual; pra-A-Anta masculine, nominative, dual; pra-Anta masculine, accusative, dual",
+      "lemma_ok": false
+     },
+     {
+      "form": "praṇītām",
+      "gold": "praṇītā NOUN {'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",
+      "got": "pra-nIta feminine, accusative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "praṇīya",
+      "gold": "praṇī VERB {'VerbForm': 'Conv'}",
+      "got": "pra-√nI ",
+      "lemma_ok": false
+     },
+     {
+      "form": "abhyukṣya",
+      "gold": "abhyukṣ VERB {'VerbForm': 'Conv'}",
+      "got": "aBi-ukzya masculine, vocative, singular; aBi-ukzya neuter, vocative, singular; aBi-√ukz ",
+      "lemma_ok": false
+     },
+     {
+      "form": "pratāpya",
+      "gold": "pratāpay VERB {'VerbForm': 'Conv'}",
+      "got": "pra-tApya masculine, vocative, singular; pra-tApya neuter, vocative, singular; pra-√tap ",
+      "lemma_ok": false
+     },
+     {
+      "form": "tvā",
+      "gold": "tvad PRON {'Case': 'Acc', 'Number': 'Sing'}",
+      "got": "yuzmad 2nd person, accusative, singular",
+      "lemma_ok": false
+     }
+    ]
+   },
+   "segmentation": {
+    "multiword_tokens": 0,
+    "rule_recall": 0.0,
+    "splitter_coverage": 0.0,
+    "splitter_exact_match": 0.0,
+    "splitter_precision_on_covered": 0.0,
+    "most_failing_junctions": [],
+    "example_rule_failures": []
+   }
+  }
+ },
+ "oracle": {
+  "roots_checked": 1983,
+  "compared": 387621,
+  "agreement": 0.99955110791211,
+  "agree_or_subset": 0.9999226048124328,
+  "engine_only": 0,
+  "oracle_only": 144,
+  "mismatches": 30,
+  "oracle_errors": 0,
+  "by_category": {
+   "act/lan": {
+    "compared": 13950,
+    "agree": 13932,
+    "more_variants": 18
+   },
+   "act/lat": {
+    "compared": 13950,
+    "agree": 13950
+   },
+   "act/lot": {
+    "compared": 13950,
+    "agree": 13950
+   },
+   "act/lrn": {
+    "compared": 13950,
+    "agree": 13941,
+    "more_variants": 9
+   },
+   "act/lrt": {
+    "compared": 13950,
+    "agree": 13950
+   },
+   "act/vidhilin": {
+    "compared": 13950,
+    "agree": 13950
+   },
+   "cau-act/lan": {
+    "compared": 17847,
+    "agree": 17838,
+    "more_variants": 9
+   },
+   "cau-act/lat": {
+    "compared": 17847,
+    "agree": 17847
+   },
+   "cau-act/lot": {
+    "compared": 17847,
+    "agree": 17847
+   },
+   "cau-act/lrt": {
+    "compared": 17847,
+    "agree": 17802,
+    "more_variants": 45
+   },
+   "cau-act/vidhilin": {
+    "compared": 17847,
+    "agree": 17847
+   },
+   "cau-mid/lan": {
+    "compared": 17784,
+    "agree": 17775,
+    "more_variants": 9
+   },
+   "cau-mid/lat": {
+    "compared": 17784,
+    "agree": 17784
+   },
+   "cau-mid/lot": {
+    "compared": 17784,
+    "agree": 17784
+   },
+   "cau-mid/lrt": {
+    "compared": 17784,
+    "agree": 17739,
+    "more_variants": 45
+   },
+   "cau-mid/vidhilin": {
+    "compared": 17784,
+    "agree": 17784
+   },
+   "mid/lan": {
+    "compared": 9072,
+    "agree": 9072
+   },
+   "mid/lat": {
+    "compared": 9072,
+    "agree": 9072
+   },
+   "mid/lot": {
+    "compared": 9072,
+    "agree": 9072
+   },
+   "mid/lrn": {
+    "compared": 9045,
+    "agree": 9045
+   },
+   "mid/lrt": {
+    "compared": 9045,
+    "agree": 9045
+   },
+   "mid/vidhilin": {
+    "compared": 9072,
+    "agree": 9072
+   },
+   "pass/lan": {
+    "compared": 17847,
+    "agree": 17817,
+    "mismatch": 21,
+    "more_variants": 9
+   },
+   "pass/lat": {
+    "compared": 17847,
+    "agree": 17844,
+    "mismatch": 3
+   },
+   "pass/lot": {
+    "compared": 17847,
+    "agree": 17844,
+    "mismatch": 3
+   },
+   "pass/vidhilin": {
+    "compared": 17847,
+    "agree": 17844,
+    "mismatch": 3
+   }
+  },
+  "examples": [
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lat[(3, 'du')]",
+    "engine": [
+     "ajyete",
+     "vIyete"
+    ],
+    "oracle": [
+     "vIyete"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lat[(2, 'du')]",
+    "engine": [
+     "ajyeTe",
+     "vIyeTe"
+    ],
+    "oracle": [
+     "vIyeTe"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lat[(1, 'sg')]",
+    "engine": [
+     "ajye",
+     "vIye"
+    ],
+    "oracle": [
+     "vIye"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lan[(3, 'du')]",
+    "engine": [
+     "AjyetAm",
+     "avIyetAm"
+    ],
+    "oracle": [
+     "avIyetAm"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lan[(2, 'du')]",
+    "engine": [
+     "AjyeTAm",
+     "avIyeTAm"
+    ],
+    "oracle": [
+     "avIyeTAm"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lan[(1, 'sg')]",
+    "engine": [
+     "Ajye",
+     "avIye"
+    ],
+    "oracle": [
+     "avIye"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lot[(3, 'du')]",
+    "engine": [
+     "ajyetAm",
+     "vIyetAm"
+    ],
+    "oracle": [
+     "vIyetAm"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lot[(2, 'du')]",
+    "engine": [
+     "ajyeTAm",
+     "vIyeTAm"
+    ],
+    "oracle": [
+     "vIyeTAm"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/lot[(1, 'sg')]",
+    "engine": [
+     "ajyE",
+     "vIyE"
+    ],
+    "oracle": [
+     "vIyE"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/vidhilin[(3, 'du')]",
+    "engine": [
+     "ajyeyAtAm",
+     "vIyeyAtAm"
+    ],
+    "oracle": [
+     "vIyeyAtAm"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/vidhilin[(2, 'du')]",
+    "engine": [
+     "ajyeyATAm",
+     "vIyeyATAm"
+    ],
+    "oracle": [
+     "vIyeyATAm"
+    ]
+   },
+   {
+    "root": "aj",
+    "gana": 1,
+    "cell": "pass/vidhilin[(1, 'sg')]",
+    "engine": [
+     "ajyeya",
+     "vIyeya"
+    ],
+    "oracle": [
+     "vIyeya"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(3, 'sg')]",
+    "engine": [
+     "Ozyata"
+    ],
+    "oracle": [
+     "uzyata"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(3, 'du')]",
+    "engine": [
+     "OzyetAm"
+    ],
+    "oracle": [
+     "uzyetAm"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(3, 'pl')]",
+    "engine": [
+     "Ozyanta"
+    ],
+    "oracle": [
+     "uzyanta"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(2, 'sg')]",
+    "engine": [
+     "OzyaTAH"
+    ],
+    "oracle": [
+     "uzyaTAH"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(2, 'du')]",
+    "engine": [
+     "OzyeTAm"
+    ],
+    "oracle": [
+     "uzyeTAm"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(2, 'pl')]",
+    "engine": [
+     "OzyaDvam"
+    ],
+    "oracle": [
+     "uzyaDvam"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(1, 'sg')]",
+    "engine": [
+     "Ozye"
+    ],
+    "oracle": [
+     "uzye"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(1, 'du')]",
+    "engine": [
+     "OzyAvahi"
+    ],
+    "oracle": [
+     "uzyAvahi"
+    ]
+   },
+   {
+    "root": "vas",
+    "gana": 1,
+    "cell": "pass/lan[(1, 'pl')]",
+    "engine": [
+     "OzyAmahi"
+    ],
+    "oracle": [
+     "uzyAmahi"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(3, 'sg')]",
+    "engine": [
+     "acCuryata"
+    ],
+    "oracle": [
+     "acCUryata"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(3, 'du')]",
+    "engine": [
+     "acCuryetAm"
+    ],
+    "oracle": [
+     "acCUryetAm"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(3, 'pl')]",
+    "engine": [
+     "acCuryanta"
+    ],
+    "oracle": [
+     "acCUryanta"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(2, 'sg')]",
+    "engine": [
+     "acCuryaTAH"
+    ],
+    "oracle": [
+     "acCUryaTAH"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(2, 'du')]",
+    "engine": [
+     "acCuryeTAm"
+    ],
+    "oracle": [
+     "acCUryeTAm"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(2, 'pl')]",
+    "engine": [
+     "acCuryaDvam"
+    ],
+    "oracle": [
+     "acCUryaDvam"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(1, 'sg')]",
+    "engine": [
+     "acCurye"
+    ],
+    "oracle": [
+     "acCUrye"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(1, 'du')]",
+    "engine": [
+     "acCuryAvahi"
+    ],
+    "oracle": [
+     "acCUryAvahi"
+    ]
+   },
+   {
+    "root": "Cur",
+    "gana": 6,
+    "cell": "pass/lan[(1, 'pl')]",
+    "engine": [
+     "acCuryAmahi"
+    ],
+    "oracle": [
+     "acCUryAmahi"
+    ]
+   }
+  ],
+  "participles": {
+   "roots": 300,
+   "compared": 34944,
+   "agreement": 0.9495192307692307,
+   "agree_or_subset": 1.0,
+   "engine_superset": 0,
+   "engine_subset": 1764,
+   "mismatches": 0,
+   "by_kind": {
+    "Satf": 0.9137931034482759,
+    "ktavatu": 0.9633333333333334,
+    "kta": 0.9633333333333334
+   },
+   "examples": [],
+   "subset_examples": [
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/1/sg",
+     "engine": [
+      "drugDavAn"
+     ],
+     "oracle": [
+      "drUQavAn",
+      "drugDavAn"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/1/du",
+     "engine": [
+      "drugDavantO"
+     ],
+     "oracle": [
+      "drUQavantO",
+      "drugDavantO"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/1/pl",
+     "engine": [
+      "drugDavantaH"
+     ],
+     "oracle": [
+      "drUQavantaH",
+      "drugDavantaH"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/2/sg",
+     "engine": [
+      "drugDavantam"
+     ],
+     "oracle": [
+      "drUQavantam",
+      "drugDavantam"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/2/du",
+     "engine": [
+      "drugDavantO"
+     ],
+     "oracle": [
+      "drUQavantO",
+      "drugDavantO"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/2/pl",
+     "engine": [
+      "drugDavataH"
+     ],
+     "oracle": [
+      "drUQavataH",
+      "drugDavataH"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/3/sg",
+     "engine": [
+      "drugDavatA"
+     ],
+     "oracle": [
+      "drUQavatA",
+      "drugDavatA"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/3/du",
+     "engine": [
+      "drugDavadByAm"
+     ],
+     "oracle": [
+      "drUQavadByAm",
+      "drugDavadByAm"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/3/pl",
+     "engine": [
+      "drugDavadBiH"
+     ],
+     "oracle": [
+      "drUQavadBiH",
+      "drugDavadBiH"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/4/sg",
+     "engine": [
+      "drugDavate"
+     ],
+     "oracle": [
+      "drUQavate",
+      "drugDavate"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/4/du",
+     "engine": [
+      "drugDavadByAm"
+     ],
+     "oracle": [
+      "drUQavadByAm",
+      "drugDavadByAm"
+     ]
+    },
+    {
+     "root": "druh",
+     "kind": "ktavatu",
+     "cell": "m/4/pl",
+     "engine": [
+      "drugDavadByaH"
+     ],
+     "oracle": [
+      "drUQavadByaH",
+      "drugDavadByaH"
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,620 @@
+{
+ "lexicon": {
+  "forms": 3813,
+  "stems": 169
+ },
+ "corpora": {
+  "sa_ufal-ud-test.conllu": {
+   "file": "sa_ufal-ud-test.conllu",
+   "sha256_16": "8e956d19e67e96d8",
+   "sentences": 230,
+   "morphology": {
+    "tokens_evaluated": 1434,
+    "skipped": {
+     "skipped_compound_member": 214,
+     "skipped_punct": 195
+    },
+    "coverage": 0.3891,
+    "lemma_recall": 0.3368,
+    "full_recall": 0.3305,
+    "precision_on_covered": 0.8495,
+    "mean_analyses_per_covered_token": 1.42,
+    "by_kind": {
+     "adjective": {
+      "n": 159,
+      "coverage": 0.3145,
+      "lemma_recall": 0.3019,
+      "full_recall": 0.3019
+     },
+     "gerund": {
+      "n": 35,
+      "coverage": 0.1714,
+      "lemma_recall": 0.1714,
+      "full_recall": 0.1714
+     },
+     "indeclinable": {
+      "n": 278,
+      "coverage": 0.7158,
+      "lemma_recall": 0.6835,
+      "full_recall": 0.6835
+     },
+     "infinitive": {
+      "n": 5,
+      "coverage": 0.4,
+      "lemma_recall": 0.4,
+      "full_recall": 0.4
+     },
+     "noun": {
+      "n": 509,
+      "coverage": 0.1572,
+      "lemma_recall": 0.1395,
+      "full_recall": 0.1297
+     },
+     "participle": {
+      "n": 101,
+      "coverage": 0.1782,
+      "lemma_recall": 0.0792,
+      "full_recall": 0.0792
+     },
+     "pronoun": {
+      "n": 170,
+      "coverage": 0.8529,
+      "lemma_recall": 0.6118,
+      "full_recall": 0.5882
+     },
+     "verb-finite": {
+      "n": 177,
+      "coverage": 0.3277,
+      "lemma_recall": 0.3051,
+      "full_recall": 0.3051
+     }
+    },
+    "top_oov_lemmas": [
+     {
+      "lemma": "ब्रू",
+      "kind": "verb-finite",
+      "count": 14
+     },
+     {
+      "lemma": "नामन्",
+      "kind": "noun",
+      "count": 12
+     },
+     {
+      "lemma": "राजन्",
+      "kind": "noun",
+      "count": 12
+     },
+     {
+      "lemma": "यथा",
+      "kind": "indeclinable",
+      "count": 11
+     },
+     {
+      "lemma": "वच्",
+      "kind": "verb-finite",
+      "count": 11
+     },
+     {
+      "lemma": "अह्",
+      "kind": "verb-finite",
+      "count": 11
+     },
+     {
+      "lemma": "इदम्",
+      "kind": "adjective",
+      "count": 9
+     },
+     {
+      "lemma": "वरम्",
+      "kind": "indeclinable",
+      "count": 8
+     },
+     {
+      "lemma": "श्रु",
+      "kind": "verb-finite",
+      "count": 7
+     },
+     {
+      "lemma": "भवत्",
+      "kind": "pronoun",
+      "count": 7
+     },
+     {
+      "lemma": "इदम्",
+      "kind": "pronoun",
+      "count": 7
+     },
+     {
+      "lemma": "तथा",
+      "kind": "indeclinable",
+      "count": 7
+     },
+     {
+      "lemma": "ब्राह्मण",
+      "kind": "noun",
+      "count": 6
+     },
+     {
+      "lemma": "चिद्",
+      "kind": "indeclinable",
+      "count": 6
+     },
+     {
+      "lemma": "उपाय",
+      "kind": "noun",
+      "count": 5
+     },
+     {
+      "lemma": "गम्",
+      "kind": "verb-finite",
+      "count": 5
+     },
+     {
+      "lemma": "दमनक",
+      "kind": "noun",
+      "count": 5
+     },
+     {
+      "lemma": "भद्र",
+      "kind": "noun",
+      "count": 5
+     },
+     {
+      "lemma": "कृ",
+      "kind": "verb-finite",
+      "count": 4
+     },
+     {
+      "lemma": "भू",
+      "kind": "verb-finite",
+      "count": 4
+     },
+     {
+      "lemma": "महत्",
+      "kind": "adjective",
+      "count": 4
+     },
+     {
+      "lemma": "युज्",
+      "kind": "participle",
+      "count": 4
+     },
+     {
+      "lemma": "ज्ञा",
+      "kind": "verb-finite",
+      "count": 4
+     },
+     {
+      "lemma": "चिद्",
+      "kind": "adjective",
+      "count": 4
+     },
+     {
+      "lemma": "मध्य",
+      "kind": "noun",
+      "count": 4
+     },
+     {
+      "lemma": "श्रु",
+      "kind": "gerund",
+      "count": 4
+     },
+     {
+      "lemma": "पद्",
+      "kind": "participle",
+      "count": 4
+     },
+     {
+      "lemma": "कृ",
+      "kind": "participle",
+      "count": 4
+     },
+     {
+      "lemma": "धा",
+      "kind": "participle",
+      "count": 4
+     },
+     {
+      "lemma": "पिङ्गलक",
+      "kind": "noun",
+      "count": 4
+     },
+     {
+      "lemma": "करटक",
+      "kind": "noun",
+      "count": 4
+     },
+     {
+      "lemma": "तावत्",
+      "kind": "indeclinable",
+      "count": 4
+     },
+     {
+      "lemma": "कौलिक",
+      "kind": "noun",
+      "count": 4
+     },
+     {
+      "lemma": "पञ्चतन्त्र",
+      "kind": "noun",
+      "count": 3
+     },
+     {
+      "lemma": "सुत",
+      "kind": "noun",
+      "count": 3
+     },
+     {
+      "lemma": "त्रि",
+      "kind": "adjective",
+      "count": 3
+     },
+     {
+      "lemma": "वह्",
+      "kind": "verb-finite",
+      "count": 3
+     },
+     {
+      "lemma": "जन्",
+      "kind": "participle",
+      "count": 3
+     },
+     {
+      "lemma": "स्था",
+      "kind": "verb-finite",
+      "count": 3
+     },
+     {
+      "lemma": "ज्ञा",
+      "kind": "participle",
+      "count": 3
+     }
+    ],
+    "example_failures": [
+     {
+      "form": "नमः",
+      "gold": "नमस् NOUN {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",
+      "got": "namaH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "नमः",
+      "gold": "नमस् NOUN {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",
+      "got": "namaH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "नमः",
+      "gold": "नमस् NOUN {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",
+      "got": "namaH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "भोः",
+      "gold": "भोस् INTJ {}",
+      "got": "BoH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "पश्यतः",
+      "gold": "पश्् VERB {'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Pres', 'VerbForm': 'Part', 'Voice': 'Act'}",
+      "got": "√dfS present (laṭ), 3rd person, dual",
+      "lemma_ok": false
+     },
+     {
+      "form": "मे",
+      "gold": "अहम् PRON {'Case': 'Gen', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",
+      "got": "asmad 1st person, dative, singular; asmad 1st person, genitive, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "कन्या",
+      "gold": "कन्य NOUN {'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing'}",
+      "got": "kanyA feminine, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {'PronType': 'Dem'}",
+      "got": "tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {'PronType': 'Dem'}",
+      "got": "tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {'PronType': 'Dem'}",
+      "got": "tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "उक्तं",
+      "gold": "वच VERB {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",
+      "got": "ukta neuter, nominative, singular; ukta masculine, accusative, singular; ukta neuter, accusative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {'PronType': 'Dem'}",
+      "got": "tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "भोः",
+      "gold": "भोस् INTJ {}",
+      "got": "BoH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "अहम्",
+      "gold": "अहम् PRON {'Case': 'Nom', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",
+      "got": "asmad 1st person, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "त्वाम्",
+      "gold": "त्वद् PRON {'Case': 'Acc', 'Number': 'Sing', 'Person': '2', 'PronType': 'Prs'}",
+      "got": "yuzmad 2nd person, accusative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "मे",
+      "gold": "अहम् PRON {'Case': 'Gen', 'Number': 'Sing', 'Person': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",
+      "got": "asmad 1st person, dative, singular; asmad 1st person, genitive, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "अहम्",
+      "gold": "अहम् PRON {'Case': 'Nom', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",
+      "got": "asmad 1st person, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "अहम्",
+      "gold": "अहम् PRON {'Case': 'Nom', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",
+      "got": "asmad 1st person, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "तव",
+      "gold": "त्वद् PRON {'Case': 'Gen', 'Number': 'Sing', 'Person': '2', 'PronType': 'Prs'}",
+      "got": "yuzmad 2nd person, genitive, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "ज्ञानम्",
+      "gold": "ज्यन NOUN {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",
+      "got": "jYAna neuter, nominative, singular; jYAna neuter, accusative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "अहम्",
+      "gold": "अहम् PRON {'Case': 'Nom', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",
+      "got": "asmad 1st person, nominative, singular",
+      "lemma_ok": false
+     },
+     {
+      "form": "किं",
+      "gold": "क PRON {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing', 'PronType': 'Int'}",
+      "got": "kim neuter, nominative, singular; kim neuter, accusative, singular; kim ",
+      "lemma_ok": false
+     },
+     {
+      "form": "ततो",
+      "gold": "तद् ADV {}",
+      "got": "tataH ",
+      "lemma_ok": false
+     },
+     {
+      "form": "किं",
+      "gold": "क PRON {'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing', 'PronType': 'Int'}",
+      "got": "kim neuter, nominative, singular; kim neuter, accusative, singular; kim ",
+      "lemma_ok": false
+     },
+     {
+      "form": "अतः",
+      "gold": "अतस् ADV {}",
+      "got": "ataH ",
+      "lemma_ok": false
+     }
+    ]
+   },
+   "segmentation": {
+    "multiword_tokens": 259,
+    "rule_recall": 0.9189,
+    "splitter_coverage": 0.0695,
+    "splitter_exact_match": 0.0502,
+    "splitter_precision_on_covered": 0.7222,
+    "most_failing_junctions": [
+     {
+      "junction": "अ|म्",
+      "failures": 2
+     },
+     {
+      "junction": "त्|ज्",
+      "failures": 1
+     },
+     {
+      "junction": "आ|ए",
+      "failures": 1
+     },
+     {
+      "junction": "ं|ष्",
+      "failures": 1
+     },
+     {
+      "junction": "अ|ज्",
+      "failures": 1
+     },
+     {
+      "junction": "इ|अ",
+      "failures": 1
+     },
+     {
+      "junction": "म्|आ",
+      "failures": 1
+     },
+     {
+      "junction": "अ|प्",
+      "failures": 1
+     },
+     {
+      "junction": "र्|ए",
+      "failures": 1
+     },
+     {
+      "junction": "म्|भ्",
+      "failures": 1
+     },
+     {
+      "junction": "ह्|अ",
+      "failures": 1
+     },
+     {
+      "junction": "ः|उ",
+      "failures": 1
+     }
+    ],
+    "example_rule_failures": [
+     {
+      "surface": "अजातमृतमूर्खेभ्यो",
+      "gold_parts": [
+       "अजात",
+       "मृत",
+       "मूर्खेभ्यः"
+      ],
+      "rules_give": "अजातमृतमूर्खेभ्यः"
+     },
+     {
+      "surface": "यावज्जीवं",
+      "gold_parts": [
+       "यावत्",
+       "जीवं"
+      ],
+      "rules_give": "यावद्जीवं"
+     },
+     {
+      "surface": "तदेतेषां",
+      "gold_parts": [
+       "तदा",
+       "एतेषां"
+      ],
+      "rules_give": "तदैतेषां"
+     },
+     {
+      "surface": "सङ्क्षेपमात्रम्",
+      "gold_parts": [
+       "सङ्क्षेप्र",
+       "मात्रम्"
+      ],
+      "rules_give": "सङ्क्षेप्रमात्रम्"
+     },
+     {
+      "surface": "हंसैर्ययथा",
+      "gold_parts": [
+       "हंसैः",
+       "यथा"
+      ],
+      "rules_give": "हंसैर्यथा"
+     },
+     {
+      "surface": "यथानंयषड्दर्शनान्",
+      "gold_parts": [
+       "यथा",
+       "आनं",
+       "षड्दर्शनान्"
+      ],
+      "rules_give": "यथानंषड्दर्शनान्"
+     },
+     {
+      "surface": "नीतिशास्त्रज्ञानम्",
+      "gold_parts": [
+       "नीतिशास्त",
+       "ज्ञानम्"
+      ],
+      "rules_give": "नीतिशास्तज्ञानम्"
+     },
+     {
+      "surface": "त्वत्प्रार्थनासिद्धर्थस्य",
+      "gold_parts": [
+       "त्वत्",
+       "प्रार्थना",
+       "सिद्धि",
+       "अर्थस्य"
+      ],
+      "rules_give": "त्वत्प्रार्थनासिद्ध्यर्थस्य"
+     },
+     {
+      "surface": "निर्वृतिमजगाम",
+      "gold_parts": [
+       "निर्वृतिम्",
+       "आजगाम"
+      ],
+      "rules_give": "निर्वृतिमाजगाम"
+     },
+     {
+      "surface": "मित्रभॆदमित्रप्राप्तिकाकोलूकीयलब्धप्रणाशापरीक्षितकारकाणि",
+      "gold_parts": [
+       "मित्रभेद",
+       "मित्रप्राप्ति",
+       "काकोलूकीय",
+       "लब्धप्रणाश",
+       "अपरीक्षितकारकाणि"
+      ],
+      "rules_give": "मित्रभेदमित्रप्राप्तिकाकोलूकीयलब्धप्रणाशापरीक्षितकारकाणि"
+     },
+     {
+      "surface": "धर्मोपार्जितभूरिविभवो",
+      "gold_parts": [
+       "धर्म",
+       "उपार्जित",
+       "भूरि",
+       "विभवः"
+      ],
+      "rules_give": "धर्मोपार्जितभूरिविभवः"
+     },
+     {
+      "surface": "वित्तेर्थोपायाश्चिन्तनीयाः",
+      "gold_parts": [
+       "वित्त",
+       "पायाः",
+       "चिन्तनीयाः"
+      ],
+      "rules_give": "वित्तपायाश्चिन्तनीयाः"
+     },
+     {
+      "surface": "तयोरएकः",
+      "gold_parts": [
+       "तयोर्",
+       "एकः"
+      ],
+      "rules_give": "तयोरेकः"
+     },
+     {
+      "surface": "प्रयाणभङ्गमकरोत्",
+      "gold_parts": [
+       "प्रयाणम्",
+       "भङ्गम्",
+       "अकरोत्"
+      ],
+      "rules_give": "प्रयाणंभङ्गमकरोत्"
+     },
+     {
+      "surface": "यमुनातटमवतीर्णः",
+      "gold_parts": [
+       "यमुना",
+       "तटम्",
+       "अवत्र्णः"
+      ],
+      "rules_give": "यमुनातटमवत्र्णः"
+     }
+    ]
+   }
+  }
+ }
+}

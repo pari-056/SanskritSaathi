@@ -1,0 +1,9 @@
+.env
+*.db
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+.pytest_cache/
+backend/data/corpora/
+backend/data/dhatupatha.tsv
