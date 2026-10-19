@@ -12,8 +12,8 @@ from pathlib import Path
 
 BOX_DAYS = [0, 1, 2, 4, 8, 16, 32]   # Leitner intervals by box
 XP_PER_LEVEL = 150
-DAILY_GOAL_XP = 30
-PASS_MARK = 0.7
+DAILY_GOAL_XP = 50
+PASS_MARK = 0.6
 
 BADGES = {
     "first_lesson": ("🌱 First steps", "Complete your first lesson"),
