@@ -1,8 +1,12 @@
 .git
 .env
+**/.env
+.env.*
 **/node_modules
 frontend/dist
 **/__pycache__
+.venv
+**/.venv
 backend/tests
 *.db
 backend/data
